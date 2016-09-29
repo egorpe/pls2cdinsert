@@ -72,7 +72,7 @@ class Main {
         log.info("Found playlist \"${playlist.Name}\"")
 
         insertText += "${playlist.Name}\n\n"
-        savePath += "/${playlist.Name.content.replace(':', '')}.odt"
+        savePath += "/${playlist.Name.content.replace(':', '').replace('/', '-')}.odt"
 
         playlist.'Playlist Items'.array.eachWithIndex { item,i  ->
             getTrack(item.'Track ID', i)
