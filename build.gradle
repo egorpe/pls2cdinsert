@@ -30,5 +30,7 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
     compile 'org.slf4j:slf4j-api:1.7.14'
     compile group: 'com.googlecode.plist', name: 'dd-plist', version: '1.16'
+    compile group: 'org.apache.odftoolkit', name: 'odfdom-java', version: '0.8.10-incubating'
+
     testCompile 'junit:junit:4.12'
 }
