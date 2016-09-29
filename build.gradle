@@ -29,5 +29,6 @@ dependencies {
     compile 'net.jthink:jaudiotagger:2.2.5'
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
     compile 'org.slf4j:slf4j-api:1.7.14'
+    compile group: 'com.googlecode.plist', name: 'dd-plist', version: '1.16'
     testCompile 'junit:junit:4.12'
 }
